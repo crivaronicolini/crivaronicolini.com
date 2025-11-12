@@ -5,57 +5,70 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marco</title>
   <link rel="stylesheet" href="./style.css" />
   <link rel="icon" href="favicon.ico" />
 </head>
 
 <body>
-  <title>Marco</title>
   <main>
-    <div class="bigcard">
+    <div class="content">
       <p>hola, soy Marco.</p>
-      <p>Soy un físico experimental.</p>
+      <p>Soy un científico aplicado.</p>
       <br>
       <p>Actualmente trabajo en <a href="https://www.linkedin.com/company/einsted/posts/?feedView=all">Einsted</a>
         diseñando y construyendo reactores de plasma para hacer más ecológica la combustión del gas natural.</p>
       <br>
       <p>También estoy buscando proyectos copados en Datos: principalmente en ML Engineering y MLOps.</p>
       <br>
-      <p>Si te interesa mi perfil manda un email a mcn.hola@gmail.com</p>
+      <p>Si te interesa mi perfil manda un email a marco@crivaronicolini</p>
       <br>
       <p>Cosas que me interesan:</p>
       <ul>
-        <li>Spaced Repetition (<a href="ankiweb.net">anki</a>)</li>
+        <li>Spaced Repetition (<a href="https://www.ankiweb.net">anki</a>)</li>
         <li>Machine Learning</li>
-        <li>Simple Web (<a href="htmx.org">htmx</a>, <a href="alpinejs.dev">alpinejs</a>)</li>
+        <li>Simple Web (<a href="https://htmx.org">htmx</a>, <a href="https://alpinejs.dev">alpinejs</a>)</li>
       </ul>
       <br>
       <p>Algunos proyectos:</p>
       <ul>
-        <details>
+        <details open>
+          <summary>InfoLeg AI</summary>
+          <p>Agente RAG para investigar publicaciones del Boletín Oficial. Utiliza pipelines automáticos para integrar
+            el scraping diario del boletín.</p>
+          <p class="small">Dagster, FastAPI, BigQuery, LangChain, HTMX, Alpine.js.</p>
+        </details>
+        <details open>
+          <summary>Felio</summary>
+          <p>Agente IA para la administración y atención de centros de salud.</p>
+          <p class="small">Django, LangGraph, LangSmith, SQLite, HTMX, Docker.</p>
+        </details>
+        <details open>
           <summary>JuliaBCA</summary>
-          <p>Un port en Julia de la librería RustBCA, capaz de simular la distribución de electrones cuando impactan
+          <p>Port en Julia de la librería RustBCA, capaz de simular la distribución de electrones cuando impactan
             sólidos. Usé Julia para aprovechar que tiene un type system parecido al de Rust, manteniendo la performance
             y sumando la facilidad en el scripting.</p>
         </details>
-        <details>
+        <details open>
           <summary>Scratch View</summary>
-          <p>Una herramienta para el analisis interactivo de las huellas de rayado. Empaquetado para Windows y Linux. |
-            Python, Qt.</p>
+          <p>Una herramienta para el analisis interactivo de las huellas de rayado. Empaquetado para Windows y Linux.
+          </p>
+          <p class="small">Python, Pandas, Qt.</p>
         </details>
-        <details>
+        <details open>
           <summary>Scratch Tester</summary>
-          <p>Software de control y manejo del equipo de ensayo de rayado automático del INFINA (UBA). | C++ en ESP33,
-            OnShape.</p>
+          <p>Software de control y manejo del equipo de ensayo de rayado automático del INFINA (UBA).</p>
+          <p class="small">C++ en ESP33, OnShape.</p>
         </details>
-        <details>
+        <details open>
           <summary>Emailer</summary>
-          <p>Utilidades de Gmail para facilitar el contacto con múltiples proveedores. | HTMX, AlpineJS, Flask, Gmail
-            Auth.</p>
+          <p>Utilidades de Gmail para facilitar el contacto con múltiples proveedores.</p>
+          <p class="small">HTMX, AlpineJS, Flask, Gmail Auth.</p>
         </details>
       </ul>
       <br>
-      <p>Links: <a href="github.com/crivaronicolini">GitHub</a> <a href="linked.in/in/crivaronicolini">LinkedIn</a></p>
+      <p>Links: <a href="https://github.com/crivaronicolini">GitHub</a> <a
+          href="https://linked.in/in/crivaronicolini">LinkedIn</a></p>
       <br>
     </div>
   </main>

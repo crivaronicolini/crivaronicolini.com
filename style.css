@@ -38,10 +38,15 @@ ul:has(details) {
 
 details {
   font-size: 16px;
+  padding-bottom: 1.2rem;
 }
 
 details>p {
-  padding: 0.3rem 0rem 1.2rem 1rem;
+  padding: 0.3rem 0rem 0.2rem 1rem;
+}
+
+.small {
+  font-size: 14px;
 }
 
 summary {
@@ -66,11 +71,8 @@ a:visited {
   color: #B51A1A;
 }
 
-.bigcard {
-  position: absolute;
-  margin-left: 10%;
-  margin-right: 10%;
+.content {
   min-width: 20rem;
   max-width: 35rem;
-  margin-top: 10rem;
+  margin: 10rem 10% 10rem 10%;
 }
