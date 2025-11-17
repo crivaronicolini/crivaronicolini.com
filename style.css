@@ -72,7 +72,6 @@ a:visited {
 }
 
 .content {
-  min-width: 20rem;
   max-width: 35rem;
   margin: 10rem 10% 10rem 10%;
 }
