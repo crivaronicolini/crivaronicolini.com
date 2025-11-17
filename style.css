@@ -53,12 +53,6 @@ summary {
   font-size: 18px;
 }
 
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 a:link {
   color: #DF2020;
 }
@@ -74,4 +68,10 @@ a:visited {
 .content {
   max-width: 35rem;
   margin: 10rem 10% 10rem 10%;
+}
+
+.arrow {
+  text-decoration-line: none;
+  position: relative;
+  top: 3px;
 }
